@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .class1{
+            background-color: black;
+            border-radius: 20px 20px 20px 20px;
+            height: 55px;
+             width: 55px;
+            position: absolute;
+            animation-name: movement;
+            animation-duration: 2s;
+            animation-delay: 3s;
+        }   
+        @keyframes movement{
+            0%
+            {
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 0px;
+                left: 500px;
+            }
+            50%{
+                top: 500px;
+                left: 500px;
+            }
+            75%{
+                top: 500px;
+                left: 0px;
+            }
+            100%{
+                top: 0; 
+                left: 0; 
+            }
+        }
+        .class2{ 
+            background-color: aqua;
+            height: 75px;
+            width: 75px;
+            border-radius: 50px 50px 50px 50px;
+            position: absolute;
+            /* animation properties */
+            animation-name: gungun;
+            animation-duration: 2s;
+            animation-delay: 3s;
+        }
+            @keyframes gungun {
+                0%{
+                    top: 0px;
+                    left: 0px;
+                }
+                15%{
+                    top: 200px;
+                    left: 0px;
+                }
+                30%{
+                  top: 200px;
+                  left: 200px;
+                }
+                45%{
+                    top: 0px;
+                  left: 300px;
+                }
+                60%{
+                    top: 0px;
+                  left: 400px;
+                }
+                75%{
+                    top: 0px;
+                  left: 500px;
+                }
+                100%{
+                    top: 0px;
+                  left: 600px;
+                }
+            }
+        
+
+    </style>
+</head>
+<body>
+    <div class="class1">
+
+    </div>
+    <div class="class2"></div>
+    <div class="html">
+
+    </div>
+</body>
+</html>
